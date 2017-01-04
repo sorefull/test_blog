@@ -1,24 +1,33 @@
-# README
+# Тестовое задание
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Задание направленно на изучение Rails, применение навков верстки на "живом" проетке, так же использование Git при работе в комманде. В этом репозитории вы найдете бэк-энд чать тестового приложения.
 
-Things you may want to cover:
+Пошаговое задание:
 
-* Ruby version
+* Склонировать репозиторий запустив в терминале команду клоннирования с путем к проекту
 
-* System dependencies
+  `git clone https://github.com/sorefull/test_blog.git`
 
-* Configuration
+* Создать локально в прокте ветку для решения поставленной задачи командой
 
-* Database creation
+  `git checkout -b branch_name`
 
-* Database initialization
+* Выполнить индивидуальное задание локально
 
-* How to run the test suite
+* Увидеть перечень измененных вами файлов можно коммандой `git status`, а полностью все изменения посмтрочно коммандой `git diff`.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Добавть изменения и закомитить их
 
-* Deployment instructions
+  `git add . && git commit -m 'описание коммита'`
 
-* ...
+  [Git doc](https://git-scm.com/book/ru/v1/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git)
+
+* В случае завершения заботы залить свою ветку на удаленный репозиторий
+
+  `git push -u origin branch_name`
+
+* Создать Pull-request на github
+
+  [GitHub Pull-request doc](https://help.github.com/articles/creating-a-pull-request/)
+
+В случае необходимости можно 'стянуть' актуальную версию без клонирования занво используя `git pull origin current_branch_name` находясь на нужной ветке. Переключение между ветками выполняется командой `git checkout branch_name`.
