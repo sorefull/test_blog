@@ -9,8 +9,16 @@
   </head>
 
   <body>
-    <%= link_to 'New post', new_post_path %>
-    <br>
-    <%= yield %>
+    <div id="wrapper">
+      
+      <%= link_to 'Logo', posts_path %>
+      <%= link_to 'New post', new_post_path %>
+      <br>
+
+      <div class="layout">
+        <%= yield %>
+      </div>
+
+    </div>
   </body>
 </html>
