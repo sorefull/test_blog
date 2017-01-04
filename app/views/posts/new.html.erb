@@ -1,9 +1,9 @@
-<h1>Posts#new</h1>
-<p>Find me in app/views/posts/new.html.erb</p>
-<%= form_for @post do |f| %>
-  <%= f.label :title %>
+<h1>Новый пост</h1>
+<!-- <p>Find me in app/views/posts/new.html.erb</p> -->
+<%= form_for @post, html: {class: 'article new_post'} do |f| %>
+  <%= f.label "Название Статьи" %>
   <%= f.text_field :title %>
-  <%= f.label :body %>
+  <%= f.label "Содержание статьи" %>
   <%= f.text_area :body %>
-  <%= f.submit :save %>
+  <%= f.submit :save, class: "save-button"%>
 <% end %>

@@ -17,3 +17,52 @@
 	background-color: #ffffff;
 	padding: 10px 30px;
 }
+
+.layout h1 {
+	font-size: 36px;
+	margin: 10px 0;
+}
+
+.layout .new_post {
+	position: relative;
+	width: 500px;
+	height: auto;
+	background-color: #e4e6f0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.layout .new_post label {
+	display: block;
+	margin: 15px 0 5px;
+}
+
+.layout .new_post .save-button {
+	background-color: #23d28a;
+	padding: 10px 30px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.layout .new_post input[type="text"] {
+	margin: 2px 0;
+	height: 20px;
+}
+
+.layout .new_post input[type="text"], textarea {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	width: 300px;
+}
+
+.layout .new_post textarea {
+	margin: 2px 0;
+	height: 100px;
+}
