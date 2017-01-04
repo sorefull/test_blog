@@ -10,11 +10,7 @@
 
   <body>
     <div id="wrapper">
-      
-      <%= link_to 'Logo', posts_path %>
-      <%= link_to 'New post', new_post_path %>
-      <br>
-
+      <%= render partial: 'source/header' %>
       <div class="layout">
         <%= yield %>
       </div>

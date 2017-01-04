@@ -1,3 +1,35 @@
-// Place all the styles related to the Posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.blog {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  margin:40px 0;
+  h3 {
+    font-weight: bold;
+    width: 100%;
+    margin: 0 0 10px;
+    font-size:30px;
+    color: blue;
+    display: block;
+    overflow: hidden;
+  }
+  p {
+    width: 100%;
+    margin: 0 0 0;
+    font-size:21px;
+    color: grey;
+    display: block;
+    overflow: hidden;
+  }
+}
+h1 {
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+  display: block;
+}
+p {
+  width: 100%;
+  font-size: 16px;
+  overflow: hidden;
+  display: block;
+}

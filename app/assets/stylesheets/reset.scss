@@ -45,8 +45,8 @@ ul {
 	list-style:none;
 }
 *:focus {outline: none;}
-input::-webkit-input-placeholder{color:;}
-input:focus::-webkit-input-placeholder{color:;}
+input::-webkit-input-placeholder{color:#000;}
+input:focus::-webkit-input-placeholder{color:#000;}
 /* wrapper */
 #wrapper {
 	display:block;

@@ -1,22 +1,24 @@
-// Place all the styles related to the Posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 #header {
 	display: block;
 	overflow: hidden;
 	width: 100%;
 	height: 40px;
 	background: #ebedec;
-}
-.logo {
-	float: left;
-	color: #ff0000;
-	margin: 0 0 0 40px;
-	line-height: 40px;
-}
-.new {
-	float: right;
-	color: #ff0000;
-	margin: 0 40px 0 0;
-	line-height: 40px;
+	.logo {
+		float: left;
+		margin: 0 0 0 40px;
+		line-height: 40px;
+		a {
+			color: #ff0000;
+		}
+	}
+	.new {
+		float: right;
+		color: #ff0000;
+		margin: 0 40px 0 0;
+		line-height: 40px;
+		a {
+			color: #ff0000;
+		}
+	}
 }
