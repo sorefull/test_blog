@@ -50,6 +50,11 @@
 	right: 10px;
 }
 
+.layout .new_post .save-button:hover {
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+
 .layout .new_post input[type="text"] {
 	margin: 2px 0;
 	height: 20px;
