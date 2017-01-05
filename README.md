@@ -3,6 +3,10 @@
 *  `git clone https://github.com/sorefull/test_blog.git`
 
   Клон репозитория
+  
+*  `bundele install && rails db:migrate`
+
+  Установка необходимых гемов и создание БД.
 
 * `git checkout -b branch_name`
 
